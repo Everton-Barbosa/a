@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    height: 50px;
+    width: 350px;
+    padding: 5px;
+    border-width: .5px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    font-size: medium;
+}
+
+.inserir {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao {
+    margin-top: 10px;
+    width: 250px;
+    height: 25px;
+    border-width: 1px;
+    border-radius: 5rem;
+    border-style: none;
+    background-color: darkgray;
+}
+
+span {
+    color: rgb(186, 1, 1);
+}
+
+th {
+    background-color: rgb(186, 1, 1);
+    padding: 15px;
+}
+
+tbody {
+    text-align: center;
+}
